@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="Imagens/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Caixa VM Softwares</title>
+</head>
+<body>
+    <header>
+        <h1>VM Softwares</h1>
+    </header>
+
+   <main>
+        <aside>
+            <h2>CAIXA ABERTO</h2>
+        </aside>
+        <article>
+            <!--logo-->
+            <div class="grid-item1">1</div>
+            <!--informações-->
+            <div class="grid-item2">
+                <h3>  CÓDIGO</h3>
+                <p>00</p>
+
+            </div>
+            <div class="grid-item3">
+                <h3>  VALOR UNITÁRIO</h3>
+                <p>R$ 0,00</p>
+            </div>
+
+            <div class="grid-item4"><H3>  TOTAL DO ITEM</H3>
+                <p>R$ 0,00</p>
+            </div>
+            <!--tabela-->
+            <div class="grid-item5">
+                <table>
+                    <tr>
+                        <th>Nº Item</th>
+                        <th>Cod</th>
+                        <th>Nome</th>
+                        <th>Quantidade</th>
+                        <th>Valor unid.</th>
+                        <th>Total</th>
+                    </tr>
+                </table>
+            </div>
+            <!--atalhos-->
+            <div class="grid-item6 atalho">
+                <p>- Inserir Item -</p>
+                <p>- Excluir Item -</p>
+                
+            </div>
+            <div class="grid-item7 atalho" >
+                <p>- Finalizar -</p>
+                <p>- Excluir Venda -</p>
+                
+            </div>
+            <!--informações-->
+            <div class="grid-item8"><h3>  TOTAL DA COMPRA</h3>
+                <p>R$ 0,00</p>
+            </div>
+            <div class="grid-item9"><h3>  TOTAL RECEBIDO</h3>
+                <p>R$ 0,00</p>
+            </div>
+            <div class="grid-item10"><h3>  TROCO</h3>
+                <p>R$ 0,00</p>
+            </div>
+        </article>
+   </main>
+   
+   <section id="addItem">
+    <form action="">
+        <h2>Inserir Item</h2>
+        <div>
+            <label for="">Digite o Código</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Digite a Quantidade</label>
+            <input type="text" >
+        </div>
+        
+    </form>
+    
+    <button>Inserir</button>
+   </section>
+
+   <section id="removeItem">
+    <form action="">
+        <h2>Remover Item</h2>
+        <div>
+            <label for="">Digite o Nº Item</label>
+            <input type="text">
+        </div>
+        
+    </form>
+    
+    <button>Remover</button>
+   </section>
+
+   <section>
+    <form action="">
+        <h2>Excluir Venda</h2>
+        <p style="font-size: large;">Tem Certeza de que quer excluir a venda?</p>
+        
+    </form>
+    <div>
+        <button>SIM</button>
+        <button>NÃO</button>
+    </div>
+   </section>
+   
+   <section>
+    <form action="">
+        <h2>Finalizar compra</h2>
+        <div>
+            <label for="">Digite o seu CPF</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Digite a forma de pagamento</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Digite o total recebido</label>
+            <input type="text">
+        </div>
+    </form>
+        <button>Finalizar</button>
+   </section>
+
+   <section id="nota-fiscal">
+
+   </section>
+
+   <script src="script.js"></script>
+</body>
+</html>
